@@ -16,7 +16,7 @@ module.exports = function (grunt, initConfigOptions) {
        *  that.
        */
       if (!/^grunt$/.test(devDep)) {
-        defaultTasks = defaultTasks.concat(require(devDep).defaultTasks);
+        defaultTasks = defaultTasks.concat(require(devDep).defaultTasks).filter(x => !!x);
         grunt.loadNpmTasks(devDep);
       }
     }
