@@ -1,6 +1,6 @@
 {
   "name": "turbogrunt",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": "binki/turbogrunt",
   "description": "Try to do grunt things conventionally.",
   "main": "index.js",
