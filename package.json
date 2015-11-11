@@ -1,7 +1,10 @@
 {
   "name": "turbogrunt",
   "version": "0.0.1",
-  "repository": "https://github.com/binki/turbogrunt",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/binki/turbogrunt"
+  },
   "description": "Try to do grunt things conventionally.",
   "main": "index.js",
   "scripts": {
