@@ -1,0 +1,12 @@
+{
+  "name": "turbogrunt",
+  "version": "0.0.1",
+  "repository": "https://github.com/binki/turbogrunt",
+  "description": "Try to do grunt things conventionally.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nathan Phillip Brink <ohnobinki@ohnopublishing.net>",
+  "license": "BSD-2-Clause"
+}
